@@ -34,9 +34,8 @@ class Stack:
             self.top -= 1
             return item
         
-stack1 = Stack(3) #Stack의 maximum size를 3으로 설정
+stack1 = Stack(3) # set maximum size of stack 3
 
-#확인코드
 print(stack1.IsEmpty())
 stack1.delete()
 stack1.add(1)
