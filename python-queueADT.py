@@ -33,7 +33,7 @@ class Queue:
             print(item)
             return
         
-queue1 = Queue(3) #queue의 maximum size를 3으로 설정
+queue1 = Queue(3) # set maximum size of queue 3
 
 print(queue1.IsEmpty())
 queue1.delete()
